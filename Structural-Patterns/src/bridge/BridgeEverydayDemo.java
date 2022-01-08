@@ -28,6 +28,5 @@ public class BridgeEverydayDemo {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
-
 	}
 }
