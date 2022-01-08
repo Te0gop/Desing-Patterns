@@ -11,9 +11,9 @@ public class BridgeEverydayDemo {
 
 		try {
 			//JDBC is an API
-			DriverManager.registerDriver(new org.apache.derby.jdbc.EmbeddedDriver()); // <- Driver
+			//DriverManager.registerDriver(new org.apache.derby.jdbc.EmbeddedDriver()); // <- Driver
 
-			String dbUrl = "jdbc:derby:memory:codejava/webdb;create=true";
+			String dbUrl = "jdbc:derby:memory:codebase/web;create=true";
 
 			Connection conn = DriverManager.getConnection(dbUrl);
 
