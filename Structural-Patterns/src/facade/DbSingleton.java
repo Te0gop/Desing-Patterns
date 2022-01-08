@@ -11,11 +11,11 @@ public class DbSingleton {
 	private Connection conn = null;
 	
 	private DbSingleton () {
-		try {
-			DriverManager.registerDriver(new org.apache.derby.jdbc.EmbeddedDriver());			
-		} catch (SQLException e) {
-			e.printStackTrace();
-		}
+//		try {
+//			DriverManager.registerDriver(new org.apache.derby.jdbc.EmbeddedDriver());
+//		} catch (SQLException e) {
+//			e.printStackTrace();
+//		}
 	}
 	
 	public static DbSingleton getInstance() {
