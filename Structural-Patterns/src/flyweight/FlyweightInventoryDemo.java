@@ -18,7 +18,7 @@ public class FlyweightInventoryDemo {
 		ims.takeOrder("Samsung TV", 332);
 		ims.takeOrder("Roomba", 456);
 
-		ims.process(); 
+		ims.process();
 
 		// We could take a million orders but, we will create only 3 objects. That is very big performance boost for our system.
 		// This pattern is used in places like Amazon, Walmart etc.
