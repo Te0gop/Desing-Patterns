@@ -5,7 +5,7 @@ import java.util.Observer;
 
 public class ObserverEverydayDemo {
 
-	public static void main(String args[]) {
+	public static void main(String[] args) {
 		TwitterStream messageStream = new TwitterStream();
 		
 		Client client1 = new Client("Bryan");
